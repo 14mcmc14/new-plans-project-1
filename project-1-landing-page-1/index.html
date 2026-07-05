@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================
+         META
+    ========================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sanay Enterprises LLP</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ======================================
+         HERO SECTION
+    ======================================= -->
+
+    <section class="hero">
+
+        <div class="hero-bg" id="heroBg">
+
+            <div class="overlay"></div>
+
+            <!-- Header -->
+
+            <header>
+
+                <nav>
+
+                    <div class="logo">
+                        🏆 Sanay
+                        <br>
+                        <h6>Enterprises LLP</h6>
+                    </div>
+
+                </nav>
+
+            </header>
+
+            <!-- Hero Content -->
+
+            <div class="hero-content fade">
+
+                <div class="tag" id="heroTag">
+                    POWERFUL SPORTS THEME
+                </div>
+
+                <h1 id="heroTitle">
+                    GREAT TEAM EFFORT
+                    <br>
+                    WINS THE GAME
+                </h1>
+
+                <p id="heroDesc">
+                    Dominate the competition with advanced analytics,
+                    training programs and cutting-edge sports technology.
+                </p>
+
+            </div>
+
+            <!-- Right Navigation -->
+
+            <div class="slide-nav">
+
+                <span class="active" onclick="changeSection('features',this)">
+                    FEATURES
+                </span>
+
+                <span onclick="changeSection('sports',this)">
+                    SPORTS
+                </span>
+
+                <span onclick="changeSection('surface',this)">
+                    SURFACE
+                </span>
+
+                <span onclick="changeSection('lab',this)">
+                    LAB
+                </span>
+
+                <span onclick="changeSection('faq',this)">
+                    ENQUIRE HERE
+                </span>
+
+            </div>
+
+            <!-- Countdown -->
+
+            <div class="countdown-bar">
+
+                <div class="count-item">
+
+                    <span>300+</span>
+
+                    <small>Sports Projects Delivered</small>
+
+                </div>
+
+                <div class="count-item">
+
+                    <span>200+</span>
+
+                    <small>Laboratory Projects Delivered</small>
+
+                </div>
+
+                <div class="count-item">
+
+                    <span>100%</span>
+
+                    <small>Customer Satisfaction</small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ======================================
+         STICKY NAVIGATION
+    ======================================= -->
+
+    <nav class="bottom-nav">
+
+        <button onclick="showSection('homeContent')">
+            Home
+        </button>
+
+        <button onclick="showSection('aboutContent')">
+            About
+        </button>
+
+        <button onclick="showSection('contactContent')">
+            Get In Touch
+        </button>
+
+    </nav>
+
+    <!-- ======================================
+         MAIN CONTENT
+    ======================================= -->
+
+    <main id="pageContent">
+
+        <!-- Home -->
+
+        <section id="homeContent" class="content-section active">
+
+            <h1>Home</h1>
+
+            <p>
+                Welcome to Sanay Enterprises LLP.
+            </p>
+
+        </section>
+
+        <!-- About -->
+
+        <section id="aboutContent" class="content-section">
+
+            <h1>About Us</h1>
+
+            <p>
+                Add your company profile here...
+            </p>
+
+        </section>
+
+        <!-- Contact -->
+
+        <section id="contactContent" class="content-section">
+
+            <form class="enquiry-form">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                >
+
+                <input
+                    type="text"
+                    placeholder="Organization"
+                >
+
+                <input
+                    type="email"
+                    placeholder="Email"
+                >
+
+                <input
+                    type="tel"
+                    placeholder="Mobile"
+                >
+
+                <select>
+
+                    <option>Sports</option>
+
+                    <option>Laboratory</option>
+
+                </select>
+
+                <textarea
+                    rows="5"
+                    placeholder="Requirement">
+                </textarea>
+
+                <button>
+                    Submit
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- ======================================
+         JAVASCRIPT
+    ======================================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
